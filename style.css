@@ -39,3 +39,29 @@ body {
     padding: 35px 0;
     align-items: center;
 }
+/*nav
+//////////////////////////*/
+.nav{
+    display: flex;
+    font-size: 13px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    
+}
+.nav_link{
+    margin-left: 40px;
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .2s;
+    
+    
+    
+    
+}
+.nav_link:first-child{
+    margin-left: 0px;
+}
+.nav_link:hover{
+    
+    opacity: 1;
